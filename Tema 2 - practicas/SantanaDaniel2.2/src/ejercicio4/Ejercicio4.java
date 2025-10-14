@@ -1,3 +1,14 @@
+/*
+ * Descripción:
+ * 
+ * El programa pide las notas de cuatro asignaturas (Programación, Base de Datos, Lenguaje de Marcas
+ * y Sistemas Informáticos), calcula la media y la muestra redondeada hacia arriba y hacia abajo.
+ * También dice si puedes acceder a unos estudios dependiendo de la nota media.
+ * 
+ * Autor: Daniel Santana Bueno
+ * Fecha: 11/10/25
+ */
+
 package ejercicio4;
 
 import java.util.Scanner;
@@ -5,7 +16,7 @@ import java.util.Scanner;
 public class Ejercicio4 {
 
 	public static void main(String[] args) {
-Scanner teclado = new Scanner(System.in);
+		Scanner teclado = new Scanner(System.in);
 		
 		System.out.print("Tu nota en programación: ");
 		double nota1 = teclado.nextDouble();

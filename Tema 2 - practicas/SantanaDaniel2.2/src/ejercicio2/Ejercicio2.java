@@ -1,3 +1,13 @@
+/*
+ * Descripción:
+ * 
+ * El programa simula una entrevista de trabajo. Pide tus datos personales, edad y salario deseado.
+ * Si cumples con el perfil, te pregunta por tu experiencia y proyectos. Según eso, te dice si te contratan
+ * y qué salario te darían.
+ * 
+ * Autor: Daniel Santana Bueno
+ * Fecha: 10/10/25
+ */
 package ejercicio2;
 
 import java.util.Scanner;

@@ -1,3 +1,14 @@
+/*
+ * Descripción:
+ * Este programa es como una mini entrevista de trabajo. Primero te pide tu nombre, apellidos, edad
+ * y el salario que te gustaría ganar. Si tu edad es menor o igual a 45 y el salario que pides es
+ * menor o igual a 30.000€, entonces te pregunta cuántos años de experiencia tienes y cuántos proyectos
+ * has hecho. Si tienes más de 2 años de experiencia y más de 3 proyectos, te contratan. Si no, te dicen
+ * que no cumples el perfil.
+ *
+ * Autor: Daniel Santana Bueno
+ * Fecha: 10/10/25
+ */
 package ejercicio1;
 
 import java.util.Scanner;

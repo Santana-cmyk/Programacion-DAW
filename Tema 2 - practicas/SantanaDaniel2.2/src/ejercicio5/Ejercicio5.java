@@ -1,3 +1,12 @@
+/*
+ * Descripción:
+ * 
+ * Este programa pide dos números al usuario y luego le deja elegir qué operación quiere hacer:
+ * suma, resta, multiplicación o división. Después muestra el resultado en pantalla.
+ * 
+ * Autor: Daniel Santana Bueno
+ * Fecha: 11/10/25
+ */
 package ejercicio5;
 
 import java.util.Scanner;
