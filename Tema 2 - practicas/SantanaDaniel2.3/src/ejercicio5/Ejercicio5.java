@@ -6,8 +6,8 @@ public class Ejercicio5 {
 
 	public static void main(String[] args) {
 		 Scanner teclado = new Scanner(System.in);
-		 int num, numPositivos = 0, numNegativos = 0, sumaPositivos = 0, sumaNegativos = 0, ceros = 0;
-	     double mediaPositivos = 0.0, mediaNegativos = 0.0;
+		 int num, ceros = 0;
+	     double mediaPositivos = 0.0, mediaNegativos = 0.0,numPositivos = 0, numNegativos = 0, sumaPositivos = 0, sumaNegativos = 0;
 
 		for (int contador=1; contador <=10; contador++) {
 			System.out.println("Ingrese el valor "+contador+" :");
@@ -27,7 +27,7 @@ public class Ejercicio5 {
 		    mediaPositivos =  sumaPositivos / numPositivos;
 			System.out.println("Media Positiva: "+mediaPositivos);
 			
-		}  if(numNegativos>0) {
+		}  if(numNegativos > 0) {
 			mediaNegativos = sumaNegativos / numNegativos;
 			System.out.println("Media Negativa: "+mediaNegativos);
 		}
